@@ -288,5 +288,41 @@ nav{
     background-color: var(--primerColor);
 }
 
+/* Personalizacion footer*/
 
+footer{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+}
+
+footer div{
+   margin-top: -4rem;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer .titulo{
+    font-size: medium;
+    list-style: none;
+}
+
+footer hr{
+   border-top: 0.1rem solid var(--primerColor);
+   border-bottom: none;
+   border-left: none;
+   border-right: none;
+   margin-bottom: 0.5rem;
+   width: 3rem;
+}
+footer li{
+    font-size: x-small;
+}
+
+footer li i{
+    color: var(--primerColor);
+    font-size: 1.3rem;
+}
 
