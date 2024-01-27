@@ -3,7 +3,8 @@
 
 *{
     margin: 0;
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
+    color: var(--segundoColor);
 }
 
 body{
@@ -65,3 +66,30 @@ nav{
 }
 
 /* Personalizacion home */
+
+.home{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.home article{
+    font-size: medium;
+    margin-bottom: 4rem;
+}
+
+.full-website{
+    color: var(--primerColor);
+    font-size: 3rem;
+}
+.home img{
+    margin-bottom: 4rem;
+    width: 15rem;
+    height: 15rem;
+}
+
+.home button{
+    background-color: var(--primerColor);
+    border-style: hidden;
+}
