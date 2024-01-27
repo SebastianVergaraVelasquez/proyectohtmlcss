@@ -135,14 +135,15 @@ nav{
     margin-top: 1rem;
 }
 
-/* Personalizacion aboutUs */
+/* Personalizacion food Menu */
 
 .foodMenu{
     height: 80vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
+    justify-items: center;
     margin-bottom: 5rem;
 }
 
@@ -200,7 +201,7 @@ nav{
     height: 7rem;
 }
 
-.card .container-check{
+.foodMenu .card .container-check{
     background-color: var(--quintoColor);
     display: flex;
     justify-content: end;
@@ -210,3 +211,49 @@ nav{
     background-color: var(--primerColor);
     width: 1.5rem;
 }
+
+/* Personalizacion servicios*/
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    height: 80vh;
+    margin-bottom: 5rem;
+}
+
+.servicios .cards-container img{
+    width: 7rem;
+    height: 7rem;
+}
+
+.servicios .card{
+    margin: 0 -1rem;
+}
+
+.servicios .titulo{
+    font-size: medium;
+    color: var(--primerColor);
+}
+
+.servicios .descripcion{
+    font-size: xx-large;
+}
+
+.servicios .card .nombre{
+    font-size: large;
+    color: var(--primerColor);
+    margin-bottom: 1rem;
+}
+
+.servicios .card .texto{
+    width: 17rem;
+    font-size: larger;
+    margin-bottom: 1rem;
+}
+
+
+
+
