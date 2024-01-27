@@ -68,12 +68,13 @@ nav{
 /* Personalizacion home */
 
 .home{
-    height: 80vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 3rem;
 }
+
 .home article{
     font-size: medium;
     margin-bottom: 4rem;
@@ -83,6 +84,7 @@ nav{
     color: var(--primerColor);
     font-size: 3rem;
 }
+
 .home img{
     margin-bottom: 4rem;
     width: 15rem;
@@ -133,3 +135,78 @@ nav{
     margin-top: 1rem;
 }
 
+/* Personalizacion aboutUs */
+
+.foodMenu{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.foodMenu .titulo{
+    font-size: medium;
+    color: var(--primerColor);
+}
+
+.foodMenu .descripcion{
+    font-size: xx-large;
+}
+
+.cards-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; 
+}
+
+.foodMenu .card{
+    background-color: var(--quintoColor);
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 15rem;
+}
+
+.foodMenu .card img{
+    width: 9rem;
+    height: 9rem;
+}
+
+.foodMenu .card .nombre{
+    font-size: small;
+    color: var(--cuartoColor);
+}
+
+.foodMenu .card .clase{
+    font-size: x-small;
+    color: var(--cuartoColor);
+}
+
+.foodMenu .card .valor{
+    font-size: xx-small;
+    color: var(--primerColor);
+}
+/* .foodMenu .pollo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+} */
+.foodMenu .pollo img{
+    margin-top:1rem ;
+    margin-bottom: 1rem;
+    height: 7rem;
+}
+
+.card .container-check{
+    background-color: var(--quintoColor);
+    display: flex;
+    justify-content: end;
+}
+
+.container-check div{
+    background-color: var(--primerColor);
+    width: 1.5rem;
+}
