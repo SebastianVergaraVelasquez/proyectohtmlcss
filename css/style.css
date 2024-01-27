@@ -3,7 +3,14 @@
 
 *{
     margin: 0;
+    font-family: 'Poppins', sans-serif
 }
+
+body{
+    background-color: var(--tercerColor);
+}
+
+/* Personalizacion header */
 
 header{
     height: 10vh;
@@ -14,11 +21,47 @@ header{
 }
 
 header div{
+    display: flex;
+    text-align: center;
     margin: 0.4rem;
     background-color: var(--segundoColor);
+    border: 0.1rem solid var(--primerColor);
 }
 
 header i{
     color: var(--primerColor);
-    border: 2px solid var(--primerColor);
+    width: 1.5rem;
+    height: 1.2rem;
+    
 }
+
+/* Personalizacion nav */
+
+nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foods{
+    font-size: larger;
+    margin-left: 3rem;
+    color: var(--primerColor);
+}
+
+.links{
+    margin-right: 2rem;
+    color: var(--segundoColor);
+}
+
+.links a{
+    margin: 0 0.5rem
+}
+
+.links a:hover{
+    border: 0.1rem solid var(--primerColor);
+    border-radius: 0.5rem;
+}
+
+/* Personalizacion home */
