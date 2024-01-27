@@ -93,3 +93,43 @@ nav{
     background-color: var(--primerColor);
     border-style: hidden;
 }
+
+/* Personalizacion aboutUs */
+
+.aboutUs{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.aboutUs img{
+    width: 15rem;
+    height: 19rem;
+    margin-bottom: 4rem;
+}
+
+.aboutUs article{
+    width: 20rem;
+    margin-bottom: 6rem;
+}
+
+.aboutUs .titulo{
+    color: var(--primerColor);
+    font-size: medium;
+}
+.aboutUs .subtitulo{
+    font-size: xx-large;
+}
+
+.aboutUs .contenido{
+    font-size: medium;
+}
+
+.aboutUs button{
+    background-color: var(--primerColor);
+    border-style: hidden;
+    margin-top: 1rem;
+}
+
