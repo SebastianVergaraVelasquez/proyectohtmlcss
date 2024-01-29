@@ -8,3 +8,8 @@ Dentro de storage/images se encuentran las imágenes empleadas en el desarrollo 
 
 Los iconos empleados en la página fueron importados de boxicons.com y la tipografía de https://fonts.google.com (font-family: 'Poppins', sans-serif;)
 
+**Menú móvil**
+
+El menú móvil de esta página web se despliega al hacer clic en el botón encontrado en la parte superior derecha, al hacer clic en alguna de las opciones lo redireccionará a su sección respectiva.
+
+Este menú fue creado mediante etiquetas <a>  en el <nav>, las cuales hacer referencia a su sección mediante la propiedad href y su id.
