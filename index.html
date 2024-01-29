@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <title>Document</title>
+    <title>Fast Food</title>
 </head>
 
 <body>
@@ -24,19 +24,19 @@
     <header>
         <nav>
             <div class="foods">Foods</div>
-            <div class="links">
-                <a>Home</a>
-                <a>About</a>
-                <a>Menu</a>
-                <a>Service</a>
-                <a>Contact</a>
+            <div id="menu" class="links">
+                <a href="#home">Home</a>
+                <a href="#aboutUs">About</a>
+                <a href="#foodMenu">Menu</a>
+                <a href="#servicios">Service</a>
+                <a href="#contactUs">Contact</a>
             </div>
-            <div class="contenedor-menu">
+            <a href="#menu" class="contenedor-menu">
                 <i class='bx bx-menu'></i>
-            </div>
+            </a>
         </nav>
     </header>
-    <section class="home">
+    <section id="home" class="home">
         <div>
             <h1>Full Website</h1>
             <p>Foods the <br>Most precious thing</p>
@@ -44,7 +44,7 @@
         </div>
         <img src="storage/images/home.png" alt="Home">
     </section>
-    <section class="aboutUs">
+    <section id="aboutUs" class="aboutUs">
         <img  src="storage/images/about.png" alt="About Us">
         <div>
             <p class="titulo">About us</p>
@@ -56,7 +56,7 @@
             <button>Learn More</button>
         </div>
     </section>
-    <section class="foodMenu">
+    <section id="foodMenu" class="foodMenu">
         <div class="titulo">Food Menu</div>
         <p class="descripcion">Fresh taste and great price</p>
         <div class="cards-container">
@@ -95,7 +95,7 @@
             </div>
         </div>
     </section>
-    <section class="servicios">
+    <section id="servicios" class="servicios">
         <div class="titulo">Services</div>
         <p class="descripcion">We provide best food services</p>
         <div class="cards-container">
@@ -129,7 +129,7 @@
             <button>Learn More</button>
         </article>
     </section>
-    <footer>
+    <footer id="contactUs">
         <div>
             <ul>
                 <li class="titulo">Menu Links</li>
