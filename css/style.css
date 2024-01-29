@@ -115,20 +115,21 @@ nav .contenedor-menu{
 /* Personalizacion aboutUs */
 
 .aboutUs{
-    padding: 80px 180px;
+    /* padding: 80px 180px; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .aboutUs img{
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
     height: 100%;
 }
 
 .aboutUs div{
-    padding: 50px 100px ;
+    margin: 0;
+    padding: 50px 50px ;
     width: 40vw;
 }
 
@@ -136,6 +137,7 @@ nav .contenedor-menu{
     color: var(--primerColor);
     font-size: 2rem;
 }
+
 .aboutUs .subtitulo{
     font-size: 4rem;
     font-weight: bold;
@@ -152,13 +154,17 @@ nav .contenedor-menu{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    justify-items: center;
-    margin-bottom: 5rem;
+    justify-items: center
 }
 
 .foodMenu .titulo{
     font-size: 2rem;
     color: var(--primerColor);
+}
+
+.foodMenu .card img{
+    max-width: 500px;
+    width: 100%;
 }
 
 .foodMenu .descripcion{
@@ -167,7 +173,6 @@ nav .contenedor-menu{
 }
 
 .cards-container{
-    margin-top: 2rem;
     display: flex;
     justify-content: center;
 }
@@ -182,11 +187,6 @@ nav .contenedor-menu{
 .foodMenu .card .nombre{
     font-size: 1.5rem;
     color: var(--cuartoColor);
-}
-
-.foodMenu .card img{
-    max-width: 600px;
-    width: 100%;
 }
 
 .foodMenu .card .clase{
@@ -224,41 +224,40 @@ nav .contenedor-menu{
 }
 
 .servicios .cards-container img{
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 300px;
+    width: 100%;
 }
 
 .servicios .card{
-    margin: 0 -1rem;
+    margin: 20px;
 }
 
 .servicios .titulo{
-    font-size: medium;
+    font-size: 2rem;
     color: var(--primerColor);
 }
 
 .servicios .descripcion{
-    font-size: xx-large;
+    font-size: 4rem;
 }
 
 .servicios .card .nombre{
-    font-size: large;
+    font-size: 2rem;
     color: var(--primerColor);
-    margin-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .servicios .card .texto{
-    width: 17rem;
-    font-size: larger;
-    margin-bottom: 1rem;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    /* padding-left: 0.5rem; */
 }
 
 /* Personalizacion banner*/
 
 .banner{
     display: flex;
-    height: 90vh;
-    margin-bottom: 4rem;
+    padding: 4rem 0;
     justify-content: space-around;
     align-items: center;
 }
@@ -266,7 +265,6 @@ nav .contenedor-menu{
 .banner article{
     width: 80vw;
     height: 50vh;
-    margin-top: 5rem;
     background-color: var(--quintoColor);
     display: flex;
     flex-direction: column;
@@ -275,10 +273,10 @@ nav .contenedor-menu{
 }
 
 .banner article div{
-    width: 40vw;
+    width: 60vw;
     text-align: center;
     color: var(--cuartoColor);
-    font-size: xx-large;
+    font-size: 4rem;
 }
 
 .banner article button{
@@ -290,13 +288,12 @@ nav .contenedor-menu{
 /* Personalizacion footer*/
 
 footer{
-    height: 30vh;
     display: flex;
     justify-content: center;
 }
 
 footer div{
-   margin-top: -4rem;
+   padding: 30px;
 }
 
 footer ul{
@@ -304,7 +301,7 @@ footer ul{
 }
 
 footer .titulo{
-    font-size: medium;
+    font-size: 2.5rem;
     list-style: none;
 }
 
@@ -314,15 +311,16 @@ footer hr{
    border-left: none;
    border-right: none;
    margin-bottom: 0.5rem;
-   width: 3rem;
+   width: 5rem;
 }
+
 footer li{
-    font-size: x-small;
+    font-size: 1.5rem;
 }
 
 footer li i{
     color: var(--primerColor);
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 
 /* Responsive */
@@ -402,5 +400,27 @@ footer li i{
     .foodMenu .descripcion{
         font-size: 2rem;
         width: 80vw;
+    }
+
+    .servicios .descripcion{
+        font-size: 3rem;
+    }
+
+    .banner article div{
+        font-size: 2rem;
+    }
+
+    .banner article{
+        height: 15vh;
+        width: 90vw;
+    }
+
+    footer{
+        flex-direction: column;
+        padding: 0 50px;
+    }
+
+    footer .contactUs{
+        align-self: center;
     }
 }
