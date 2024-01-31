@@ -84,15 +84,14 @@ nav .contenedor-menu{
 /* Personalizacion home */
 
 .home{
-    margin: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.home div{
+/* .home div{
     padding: 50px;
-}
+} */
 
 .home h1{
     color: var(--primerColor);
@@ -137,7 +136,6 @@ nav .contenedor-menu{
 
 .aboutUs .subtitulo{
     font-size: 4rem;
-    font-weight: bold;
 }
 
 .aboutUs .contenido{
@@ -178,7 +176,8 @@ nav .contenedor-menu{
 .foodMenu .card{
     background-color: var(--quintoColor);
     border-radius: 0.5rem;
-    margin: 50px;
+    margin: 20px;
+    padding-bottom: 15px;
     position: relative;
 }
 
@@ -213,6 +212,7 @@ nav .contenedor-menu{
 /* Personalizacion servicios*/
 
 .servicios{
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -223,7 +223,6 @@ nav .contenedor-menu{
 
 .servicios .cards-container img{
     max-width: 300px;
-    width: 100%;
 }
 
 .servicios .card{
@@ -254,7 +253,6 @@ nav .contenedor-menu{
 
 .banner{
     display: flex;
-    padding: 4rem 0;
     justify-content: space-around;
     align-items: center;
 }
@@ -334,7 +332,6 @@ footer li i{
 
 
     .foods{
-        margin-left: -40px ;
         font-size: 2rem;
     }
 
@@ -372,7 +369,6 @@ footer li i{
 
     .home h1{
         font-size: 3rem;
-        width: 100vw;
     }
 
     .home p{
@@ -380,7 +376,9 @@ footer li i{
     }
 
     .home img{  
-        max-width: 400px;
+        padding-top: 40px;
+        max-width: 300px;
+        max-height: 380px;
     }
 
     .home button{
@@ -388,6 +386,7 @@ footer li i{
     }
 
     .aboutUs{
+        padding-top: 60px;
         flex-direction: column-reverse;
         align-items: center;
         text-align: center;
@@ -395,41 +394,95 @@ footer li i{
 
     .aboutUs div{
         width: 100vw;
+        padding: 20px;
     }
     .aboutUs article{
         padding: 50px 100px;
     }
-    .aboutUs titulo{
+    .aboutUs .titulo{
         font-size: 1rem;
     }
 
     .aboutUs .subtitulo{
-        font-size: 2rem;
+        padding-top: 20px;
+        width: 90vw;
+        font-size: 1.5rem;
     }
 
+    .aboutUs .contenido{
+        padding: 20px 20px 0 20px ;
+        width: 90vw;
+        font-size: 1rem;
+    }
+
+    .aboutUs button{
+        font-size: 0.6rem;
+    }
+
+    .aboutUs img{
+        padding-top: 20px;
+        max-width: 300px;
+    }
     .cards-container{
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
+    .foodMenu .titulo{
+        font-size: 1rem;
+    }
+
     .foodMenu .descripcion{
-        font-size: 2rem;
+        padding-top: 10px;
+        font-size: 1.5rem;
         width: 80vw;
     }
 
+    .foodMenu .card{
+        width: 60vw;
+    }
+
+    .foodMenu .card img{
+        max-width: 200px;
+    }
+
+    .servicios .titulo{
+        font-size: 1rem;
+    }
+
     .servicios .descripcion{
-        font-size: 3rem;
+        font-weight: bold;
+        padding-top: 10px;
+        font-size: 1.5rem;
+        width: 70vw;
+    }
+    .servicios .cards-container img{
+        max-width: 200px;
+    }
+
+    .servicios .card .nombre{
+        padding-top: 20px;
+        font-size: 1.2rem;
+    }
+    
+    .servicios .card .texto{
+        font-size: 1.2rem;
+        width: 75vw;
     }
 
     .banner article div{
-        font-size: 2rem;
-        width: 90vw;
+        font-size: 1.3rem;
+        width: 70vw;
     }
 
     .banner article{
-        max-height: 30vh;
-        width: 90vw;
+        max-height: 25vh;
+        width: 80vw;
+    }
+
+    .banner article button{
+        font-size: 0.6rem;
     }
 
     footer{
@@ -439,5 +492,17 @@ footer li i{
 
     footer .contactUs{
         align-self: center;
+    }
+
+    footer .titulo{
+        font-size: 1.5rem;
+    }
+
+    footer div{
+        padding: 20px;
+    }
+
+    footer div ul .item{
+        font-size: 1rem;
     }
 }
