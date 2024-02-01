@@ -22,33 +22,6 @@ body button{
     font-weight: bold;
 }
 
-/* Personalizacion header */
-
-/* header{
-    height: 10vh;
-    background: var(--quintoColor);
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-
-header div{
-    display: flex;
-    text-align: center;
-    margin: 0.4rem;
-    background-color: var(--segundoColor);
-    border: 0.1rem solid var(--primerColor);
-}
-
-header i{
-    color: var(--primerColor);
-    width: 1.5rem;
-    height: 1.2rem;
-    
-} */
-
-/* Personalizacion nav */
-
 nav{
     display: flex;
     justify-content: space-between;
