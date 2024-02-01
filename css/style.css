@@ -340,6 +340,13 @@ footer li i{
 /* Responsive */
 
 @media(max-width:768px){
+    
+    header{
+        height: 10vh;
+        position: fixed;
+        background-color: var(--cuartoColor);
+        width: 100%;
+    }
 
     nav .contenedor-menu{
         display:contents;
@@ -349,8 +356,11 @@ footer li i{
         font-size: 2rem;
     }
 
-
+    nav a i{
+        color: var(--pr);
+    }
     .foods{
+        margin-left: -30px;
         font-size: 2rem;
     }
 
@@ -363,13 +373,15 @@ footer li i{
         text-align: center;
         top:100px;
         right: 0px;
+        z-index: 10;
         clip-path: circle(0% at top left);
-        transition: clip-path 0.4s
+        transition: clip-path 0.4;
+        overflow: inherit;
     }
     
     .links a{
         text-decoration: none;
-        font-size: 5rem;
+        font-size: 3rem;
     }
     nav .links:target{
         clip-path: circle(150% at top left);
@@ -377,7 +389,7 @@ footer li i{
 
     .home{
         padding-top: 20px;
-        height: 70vh;
+        height: 100vh;
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -407,8 +419,8 @@ footer li i{
     }
 
     .aboutUs{
+        margin-top: -100px;
         padding-left: 0;
-        padding-top: 60px;
         margin-bottom: 0;
         flex-direction: column-reverse;
         align-items: center;
@@ -452,6 +464,9 @@ footer li i{
         text-align: center;
     }
 
+    .foodMenu{
+        margin: 70px 0;
+    }
     .foodMenu .titulo{
         font-size: 1rem;
     }
@@ -463,6 +478,8 @@ footer li i{
     }
 
     .foodMenu .card{
+        position: relative;
+        z-index: -5;
         width: 60vw;
     }
 
