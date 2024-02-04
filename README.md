@@ -1,8 +1,6 @@
-#### Disposición básica de archivos y carpetas
+#### Descripción 
 
-Inicialmente se creó el archivo index.html, junto con las carpetas css y storage/images. css contiene los archivos style.css y variables.css, dentro de style.css se encuentran importadas las variables de estilo creadas en variables.css
-
-Dentro de storage/images se encuentran las imágenes empleadas en el desarrollo de la página web.
+Esta página web es el modelo inicial de un menú de comidas que podrá ser empleado para ofrecer servicios de tipo restaurante por parte de Campuslands.
 
 **Iconos y tipografía**
 
@@ -18,4 +16,15 @@ El responsive design fue aplicado mediante @media en el archivo style.css para u
 
 El menú móvil de esta página web se despliega al hacer clic en el botón encontrado en la parte superior derecha, al hacer clic en alguna de las opciones lo redireccionará a su sección respectiva.
 
-Este menú fue creado mediante etiquetas <a>  en el <nav>, las cuales hacer referencia a su sección mediante la propiedad href y su id.
+Este menú fue creado mediante etiquetas <a>  en el <nav>, las cuales hacen referencia a su sección mediante la propiedad href y su id.
+
+**Visualización previa**
+
+Versión de escritorio
+
+https://github.com/SebastianVergaraVelasquez/proyectohtmlcss/blob/main/storage/images/web-Escritorio.gif
+
+Versión móvil
+
+https://github.com/SebastianVergaraVelasquez/proyectohtmlcss/blob/main/storage/images/web-Movil.gif
+
