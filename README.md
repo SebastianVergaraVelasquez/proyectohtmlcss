@@ -22,9 +22,12 @@ Este menú fue creado mediante etiquetas <a>  en el <nav>, las cuales hacen refe
 
 Versión de escritorio
 
+![web Escritorio](https://github.com/SebastianVergaraVelasquez/proyectohtmlcss/assets/97114145/1fc1b8a1-0251-4832-ba93-3348d9dd6ba4)
+
 https://github.com/SebastianVergaraVelasquez/proyectohtmlcss/blob/main/storage/images/web-Escritorio.gif
 
 Versión móvil
 
 https://github.com/SebastianVergaraVelasquez/proyectohtmlcss/blob/main/storage/images/web-Movil.gif
 
+![web movil](https://github.com/SebastianVergaraVelasquez/proyectohtmlcss/assets/97114145/5fc4a2a2-7033-46bf-8be9-dffcdaaf5afd)
